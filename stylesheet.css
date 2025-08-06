@@ -50,6 +50,59 @@ body {
     position: relative;
     overflow-x: hidden;
 }
+    .container {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    .section h2 {
+      border-left: 5px solid #00c2ff;
+      padding-left: 0.5rem;
+      font-size: 1.3rem;
+      margin-bottom: 1rem;
+    }
+    .box {
+      background: white;
+      border-radius: 8px;
+      padding: 1rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      margin-bottom: 1rem;
+      word-break: break-word; /* thêm dòng này */
+    }
+    .warning {
+      border-left: 4px solid red;
+      background: #ffeaea;
+    }
+    .info {
+      border-left: 4px solid #00c2ff;
+      background: #e8f6ff;
+    }
+    ul {
+      margin: 0;
+      padding-left: 1.5rem;
+    }
+    .tag-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.5rem;
+    }
+    .tag {
+      background: #eee;
+      padding: 0.3rem 0.6rem;
+      border-radius: 999px;
+      font-size: 0.9rem;
+    }
+
+    ul li {
+      word-break: break-word;
+    }
+    
+
+/* */
 
 /* Admin Access Button */
 .admin-access {
