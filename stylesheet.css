@@ -36,12 +36,18 @@ header h1 {
 }
 
 body {
+    background-image: url('https://res.cloudinary.com/ds5ofduyf/image/upload/v1754377888/Copy%20form%20my%20Addon/addon_1754377885925_tjd2gg.png'); /* Thay URL tại đây */
+    background-size: cover;         /* Phủ kín toàn bộ */
+    background-repeat: no-repeat;   /* Không lặp lại */
+    background-position: center;    /* Căn giữa */
+    min-height: 100vh;              /* Chiều cao tối thiểu 100% màn hình */
     font-family: 'Roboto', sans-serif;
-    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
     color: var(--text-color);
     line-height: 1.6;
+    background-color: #f5f5f5;
     position: relative;
-    min-height: 100vh;
     overflow-x: hidden;
 }
 
