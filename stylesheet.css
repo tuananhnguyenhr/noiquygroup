@@ -18,6 +18,23 @@
     box-sizing: border-box;
 }
 
+header {
+    padding: 15px 20px;
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+    color: white;
+    border-radius: calc(var(--border-radius) - 2px) calc(var(--border-radius) - 2px) 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: center; /* Căn giữa title */
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f5f5f5;
