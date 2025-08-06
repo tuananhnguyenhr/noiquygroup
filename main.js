@@ -1,4 +1,3 @@
-<script>
   const minLoadingTime = 1000; // Tối thiểu 1 giây
   const startTime = Date.now();
 
@@ -16,4 +15,3 @@
       }
     }, remaining);
   });
-</script>
