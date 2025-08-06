@@ -1,14 +1,14 @@
 /* CSS Variables - Will be updated dynamically */
 :root {
-    --primary-color: #d82c27;
-    --primary-dark: #b42320;
-    --primary-light: #e05a55;
-    --secondary-color: #f8f8f8;
-    --text-color: #333;
+    --primary-color: #87bef2;
+    --primary-dark: #476f94;
+    --primary-light: #a0caf2;
+    --secondary-color: #ffffff;
+    --text-color: #333333;
     --border-radius: 15px;
     --shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     --transition: all 0.3s ease;
-    --wave-color: #d82c27; /* Thêm wave color variable */
+    --wave-color: #095196; /* Thêm wave color variable */
 }
 
 /* Reset CSS */
